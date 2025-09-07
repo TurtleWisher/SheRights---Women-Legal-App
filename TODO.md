@@ -1,0 +1,5 @@
+- [x] Edit public/index.html to update copyright to 2025
+- [x] Edit public/education.html to update copyright to 2025
+- [x] Edit public/help.html to update copyright to 2025
+- [x] Edit public/tracker.html to update copyright to 2025
+- [x] Edit public/report.html to update copyright to 2025

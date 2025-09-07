@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learn Laws - SheRights</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>SheRights</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="education.html">Learn Laws</a>
+      <a href="help.html">Seek Help</a>
+      <a href="tracker.html">Case Tracker</a>
+      <a href="report.html">Report Issue</a>
+    </nav>
+  </header>
+  <main>
+    <section id="education">
+      <h2>Legal Education Through Comics and Games</h2>
+      <div class="comic-panel">
+        <h3>Marriage Laws</h3>
+        <p>Comic strip explaining marriage rights...</p>
+        <img src="images/Skaermbillede_2019-04-25_kl._08.43.38.png" alt="Learn Laws Image" style="margin-top: 10px; border-radius: 8px; max-width: 100%;">
+      </div>
+      <div class="quiz">
+        <h3>Quiz: Workplace Rights</h3>
+        <p>Answer questions to learn about workplace laws.</p>
+        <button id="start-quiz" class="btn-glow">Start Quiz</button>
+        <div id="quiz-content" style="display: none;">
+          <p id="question">Question here</p>
+          <button class="answer">Option 1</button>
+          <button class="answer">Option 2</button>
+          <p id="result"></p>
+        </div>
+      </div>
+      <style>
+        .quiz {
+          margin-top: 2rem;
+          max-height: 400px;
+          overflow-y: auto;
+          padding-right: 10px;
+        }
+        .quiz button.answer {
+          display: block;
+          margin: 0.5rem 0;
+          width: 100%;
+          max-width: 300px;
+        }
+      </style>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 SheRights. All rights reserved.</p>
+  </footer>
+  <script src="quiz.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

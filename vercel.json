@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "routes": [
+    { "src": "/api/cases/(.*)", "dest": "/api/cases/$1.js" },
+    { "src": "/api/reports/(.*)", "dest": "/api/reports/$1.js" }
+  ]
+}

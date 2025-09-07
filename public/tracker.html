@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Case Tracker - SheRights</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>SheRights</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="education.html">Learn Laws</a>
+      <a href="help.html">Seek Help</a>
+      <a href="tracker.html">Case Tracker</a>
+      <a href="report.html">Report Issue</a>
+    </nav>
+  </header>
+  <main>
+    <section id="tracker">
+      <h2>Track Your Legal Cases</h2>
+      <input type="text" id="user-id" placeholder="Enter your User ID">
+      <button id="load-cases" class="btn-glow">Load Cases</button>
+      <div id="cases-list"></div>
+      <h3>Add New Case</h3>
+      <input type="text" id="new-case-desc" placeholder="Case description">
+      <button id="add-case" class="btn-glow">Add Case</button>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 SheRights. All rights reserved.</p>
+  </footer>
+  <script src="tracker.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
